@@ -1,0 +1,16 @@
+Team: MSG Developer From Aptech Metro Star Gate
+
+Installation Guide
+
+https://github.com/Syedumer1999/procom-pmt-web-development
+pull this git
+
+Requirement: Php greater than 7.4
+
+composer install
+
+mysql database file in root directory
+
+Set Database Credentials In .env file in root folder
+
+run project: php artisan serve

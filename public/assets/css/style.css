@@ -1,0 +1,131 @@
+ul.navbar-nav{
+    float: right;
+}
+.main-content{
+    width: 100%;
+}
+.thumbnail{
+    width: 40px;
+    height: 40px;
+    background-color: #f1f1f1;
+    border: 2px solid #c0c0c0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 100%;
+    color: #232323;
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .sidebar li.active a{
+    color:#fff;
+    font-weight: 800;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  .side-heading{
+      padding: 30px;
+  }
+  .navigation-bar{
+      width: 100%;
+  }
+  .headerAuth{
+      padding: 8px 10px;
+  }
+  .headerAuth b{
+      padding-bottom: -10px;
+  }
+  .filter-box{
+      padding: 10px 10px;
+  }
+  .form-control{
+      border: 1px sold #c0c0c0;
+      font-size: 14px;
+      padding: 6px;
+  }
+  .list-card{
+      display: inline-block;
+      width: 25%;
+  }
+  
+  .list-wrap{
+      padding: 30px 10px;
+      width: 100%;
+  }
+  .list-card .card-header{
+    background-color: #232323;
+    color: #fff;
+    border: 0px;
+    font-size: 20px;
+  }
+  .list-card .card-body{
+      padding: 60px 20px;
+  }
+  .btn-block{
+      width: 100%;
+      border: 0px;
+      border-radius: 0px;
+  }
+  .card-data{
+      background-color: #f1f1f1;
+      border: 1px solid #c0c0c0;
+      padding: 10px;
+      border-radius: 0px;
+      cursor: pointer;
+      margin-top: 6px;
+  }
